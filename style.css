@@ -53,41 +53,41 @@ table {
 
 
 /* -------- 1. LAYOUT -------- */
-/*body { 
+body { 
 	text-align: center; 
 	font-size: 10px;
 	font-family: 'Oswald', sans-serif; 
 	background: #f1f0f0;
-}*/
+}
 
-/*.topline{
+.topline{
 	height: 8px;
 	background-color: #4d7db7;
-}*/
+}
 
 /*Contenedor de todo el sitio Web*/
-/*.wrapper { 
+.wrapper { 
 	width: 1000px; 
 	margin: 15px auto; 
-}*/
+}
 
-/*.flex { 
+.flex { 
 	display: flex;
-}*/
+}
 
-/*.navbar { 
+.navbar { 
 	justify-content: space-between;
-}*/
+}
 
-/*	.navbar nav { 
+	.navbar nav { 
 		align-items: stretch;
-	}*/
+	}
 
-/*.content{
+.content{
 	margin-top: 10px;
-}*/
+}
 
-/*.content .item { 
+.content .item { 
 	display: flex; 
 	align-items:center; 
 	justify-content: center; 
@@ -95,22 +95,22 @@ table {
 	background: #ccc; 
 	height: 350px; 
 	padding: 20px;
-}*/
+}
 	
-/*	.content .about .item.title, .content .portfolio .item.title { 
+	.content .about .item.title, .content .portfolio .item.title { 
 		justify-content: flex-start;
-	}*/ 
+	}
 
-/*	.content .services .item.title { 
+	.content .services .item.title { 
 		justify-content: flex-end;
-	}*/
+	}
 
 /* -------- 2. GENERIC ITEMS -------- */
-/*.navbar { 
+.navbar { 
 	height: 107px;
-}*/
+}
 
-/*	.navbar a { 
+	.navbar a { 
 		display: inline-block; 
 		margin: 0; 
 		padding: 20px 25px 15px 25px; 
@@ -119,9 +119,9 @@ table {
 		text-transform: uppercase; 
 		color: #fff; 
 		text-decoration: none; 
-	}*/
+	}
 
-/*		.navbar a:nth-child(1) { 
+		.navbar a:nth-child(1) { 
 			background-color: #e6c50f;
 		}
 		.navbar a:nth-child(2) { 
@@ -132,199 +132,182 @@ table {
 		}
 		.navbar a:nth-child(4) { 
 			background-color: #a93b2c;
-		}*/
-/*			.item_icon{
+		}
+			.item_icon{
 				display: block;
     			margin-bottom: 10px;
     			font-size: 2rem;
-			}*/
+			}
 
 
-/*.title { 
+.title { 
 	text-transform: uppercase;
 	font-size: 2.5rem;
 	font-weight: 400;
-}*/
+}
 
-/*.description { 
+.description{ 
 	font-size: 1rem; 
 	font-weight: 300; 
 	line-height: 1.3;
 	text-align: left;
-}*/
+}
 
-/*.description .subtitle { 
+.description .subtitle { 
 	font-size: 24px; 
 	margin-bottom: 10px;
 	text-transform: uppercase;
-}*/
+}
 
-/*.about { 
+.about { 
 	color: #fff;
-}*/
+}
 
-/*	.about .photo { 
+	.about .photo { 
 		background: #fff;
-	}*/
+	}
 
-/*	.about .description { 
+	.about .description { 
 		background: #4c7db7; 
 		display: flex; 
 		flex-flow: column nowrap; 
 		align-items:flex-start;
 		font-weight: 200;
-	}*/
-/*	
+	}
+	
 	.about .title { 
 		background: #5b94da;
-	}*/
+	}
 
-/*.services { 
+.services { 
 	color: #333;
-}*/
+}
 
-/*	.services .image { 
+	.services .image { 
 		background: #fff;
-	}*/
+	}
 
-/*	.services .description { 
+	.services .description { 
 		background: #a83a2c; 
 		display: flex; 
 		flex-flow:column nowrap; 
 		align-items:flex-start;
 		color: #fff;
 		font-weight: 200;
-	}*/
+	}
 
-/*	.services .title { 
+	.services .title { 
 		background: #cc4c3a; 
 		color:#fff;
-	}*/
+	}
 
-/*	.portfolio { 
-		color: #333;
-	}*/
+.portfolio { 
+	color: #333;
+}
 
-/*		.portfolio .description { 
-			background: #f2f2f2; 
+		.portfolio .description { 
+			background: #f4e5ff; 
 			border:20px solid #fff; 
 			display: flex; 
 			flex-flow:column nowrap; 
 			align-items:flex-start; 
 			flex:1 65.7%;
-		}*/
+		}
 
-/*		.portfolio .title { 
+		.portfolio .title { 
 			background: #3d0274; 
 			color:#fff; 
-			flex:1 auto;
-		}*/
+			flex:1 32.33%;
+		}
 
-/*.portfolio { 
-	color: #333;
-}*/
-
-/*	.portfolio .title { 
-		background: #7d41ab; 
-		color:#fff; 
-		flex: 1 32.3%;
-	}*/
-
-/*	.portfolio .description { 
-		background: #f4e5ff; 
-		border:20px solid #fff; 
-		display: flex; 
-		flex-flow:column nowrap; 
-		align-items:flex-start; 
-	}*/
-
-/*.contact { 
+.contact { 
 	color: #fff;
-}*/
+}
 
-/*	.contact .form { 
+	.contact .form { 
 		background: #d17d1f;
-	}*/
+	}
 
-/*	.contact .description { 
+	.contact .description { 
 		background: #d17d1f; 
 		display: flex; 
 		flex-flow:column nowrap; 
 		align-items:flex-start;
 		font-weight: 200;
-	}*/
+	}
 
-/*	.contact .title { 
+	.contact .title { 
 		background: #b95400;
-	}*/
+	}
  
-/* .footer{
+ .footer{
  	display: flex;
  	align-items: center;
  	justify-content: center;
  	height: 60px;
  	margin-bottom: 10px;
- }*/
+ }
 
-/* 	.footer p{
+ 	.footer p{
  		text-transform: uppercase;
  		font-size: 0.7rem;
  		color: rgba(132, 39,27, 0.8);
- 	}*/
+ 	}
 
 /* -------- 3. LIST -------- */
-
-/*	.portfolio li { 
+	.portfolio ul{
+		width: 100%;
+	}
+	.portfolio li { 
 		padding-bottom: 10px; 
 		margin-bottom: 10px; 
 		border-bottom: 1px dotted #cba2eb;
-	}*/
+	}
 
-/*	.portfolio li h4{
+	.portfolio li h4{
 		font-weight: bold;
 		text-transform: uppercase;
-	}*/
+	}
 
-/*	.portfolio li p{
+	.portfolio li p{
 		font-weight: 200;
-	}*/
+	}
 /* -------- 4. FORM -------- */
 
-/*	.contact form { 
+	.contact form { 
 		display: flex; 
 		flex-flow:column nowrap; 
 		align-items:flex-end;
-	}*/
+	}
 
-/*	.contact input, .contact textarea { 
+	.contact input, .contact textarea { 
 		border: 0; 
 		background: rgba(255,255,255, 0.8); 
-		display: block; 
-		width: 250px; 
+		/*display: block; */
+		width: 100%; 
 		height: 30px; 
 		padding-left:10px; 
 		margin-bottom: 10px; 
-	}*/
-
-	/*::-webkit-input-placeholder { /* Chrome/Opera/Safari */*/
-	  /*color: #b95400;*/
-	/*}*/
-	/*::-moz-placeholder { /* Firefox 19+ */
-	  /*color: #b95400;*/
-	/*}*/
-	/*:-ms-input-placeholder { /* IE 10+ */
-	  /*color: #b95400;*/
-	/*}*/
-	/*:-moz-placeholder { /* Firefox 18- */
-	  /*color: #b95400;*/
-	/*}*/
-
-/*	.contact textarea{
+	}
+	.contact textarea{
 		height: 90px;
 		padding-top: 10px;
-	}*/
-	
-/*		.contact [type=submit] { 
+	}
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #b95400;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: #b95400;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: #b95400;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: #b95400;
+	}
+
+
+		.contact [type=submit] { 
 			width: auto; 
 			height: auto; 
 			padding: 5px 15px; 
@@ -333,5 +316,94 @@ table {
 			font-size: 16px;
 			text-transform: uppercase;
 			margin-top: 10px;
+		}
+
+/* -------- 5. MEDIAQUERY -------- */
+
+@media screen and (max-width: 780px) {
+/*	.wrapper { 
+		width: 100%;
+	}*/
+
+/*	.navbar{ 
+		flex-flow: column; 
+		position: relative; 
+	}*/
+
+/*	.navbar{
+		height: auto;
+	}
+		.navbar nav {
+    		justify-content: center;
+		}*/
+/*		.navbar img{
+			margin-top: 10px;
+			margin-bottom: 25px;
 		}*/
 
+/*		.about .photo img, .services .image img { 
+			max-width: 100%; 
+			width: 100%; 
+			height: auto;
+		}*/
+}
+
+@media screen and (max-width: 600px) {
+	/*.about, .services, .portfolio, .contact { 
+		flex-flow: row wrap;
+	}*/
+/*	.item.order-1 { 
+		order:1;
+		width: 100%;
+		flex: none;
+	}
+	.order-2 { 
+		order:2;
+		width: 50%;
+	}
+	.order-3 { 
+		order:3;
+		width: 50%;
+	}*/
+
+/*	.content .about .item.title, .content .services .item.title, .content .portfolio .item.title, .content .contact .item.title { 
+		height: auto; 
+		padding-top: 20px; 
+		padding-bottom: 20px; 
+		justify-content:flex-start;
+	}*/
+}
+@media screen and (max-width: 440px) {
+
+/*	.navbar, .about.flex, .services.flex, .portfolio.flex, .contact.flex { 
+		flex-flow: column; 
+		position: relative; 
+	}*/
+/*	.item.order-2, .item.order-3 { 
+		width: 100%;
+		flex: none;
+	}*/
+/*	.navbar{
+		height: auto;
+	}*/
+
+/*	.about .photo { 
+	    position: absolute;
+	    right: 1%;
+	    padding: 0;
+	    top: 7%;
+	    background: transparent;
+	    width: 130px;
+	    height: 130px;
+	}*/
+
+/*	.about .description, .services .description, .contact .description, .contact .form { 
+		height: auto; 
+		padding-top: 40px; 
+		padding-bottom: 40px;
+	}*/
+
+/*	.portfolio .description { 
+		border:0;
+	}*/
+}
